@@ -1,0 +1,7 @@
+com\example\springboot_gemini_api_consumer\dto\Parts.class
+com\example\springboot_gemini_api_consumer\service\AppService.class
+com\example\springboot_gemini_api_consumer\controller\ApiController.class
+com\example\springboot_gemini_api_consumer\dto\Contents.class
+com\example\springboot_gemini_api_consumer\dto\Prompt.class
+com\example\springboot_gemini_api_consumer\SpringbootGeminiApiConsumerApplication.class
+com\example\springboot_gemini_api_consumer\service\GeminiService.class

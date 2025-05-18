@@ -19,9 +19,13 @@ import java.util.List;
 public class ApiController {
 
     @Autowired
-    AppService appService;
+    private final AppService appService;
+    public ApiController(AppService appService)
+    {
+        this.appService = appService;
+    }
 
-    @PostMapping("/get-result")
+    @PostMapping("/get-result-BreinLogic")
     ResponseEntity<Object> getResponseFromGemini(@RequestBody Parts parts){
 
         Prompt prompt = new Prompt();

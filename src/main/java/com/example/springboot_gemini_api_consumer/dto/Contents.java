@@ -1,10 +1,20 @@
 package com.example.springboot_gemini_api_consumer.dto;
 
-import lombok.Data;
+
+
 
 import java.util.List;
 
-@Data
+
 public class Contents {
     List<Parts> parts;
+
+
+    public List<Parts> getParts() {
+        return parts;
+    }
+
+    public void setParts(List<Parts> parts) {
+        this.parts = parts;
+    }
 }
