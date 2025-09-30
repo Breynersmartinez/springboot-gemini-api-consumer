@@ -10,10 +10,12 @@ public class Prompt {
 
 
     public List<Contents> getContents() {
+
         return contents;
     }
 
     public void setContents(List<Contents> contents) {
+
         this.contents = contents;
     }
 }
