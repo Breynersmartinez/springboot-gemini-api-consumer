@@ -58,7 +58,7 @@ Aclara que la respuesta es de carácter informativo y no sustituye asesoría leg
         //contexto que se manejara para las respuestas
         Parts contextParts= new Parts();
         // CONTEXT
-        contextParts.setText(" ");
+        contextParts.setText(" Eres un asistente especializado en Desarrollo de software. Responde   de forma clara y breve. ");
         partsList.add(contextParts);
 
 
