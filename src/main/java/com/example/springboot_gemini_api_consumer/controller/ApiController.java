@@ -58,7 +58,12 @@ Aclara que la respuesta es de carácter informativo y no sustituye asesoría leg
         //contexto que se manejara para las respuestas
         Parts contextParts= new Parts();
         // CONTEXT
-        contextParts.setText(" Eres un asistente especializado en Desarrollo de software. Responde   de forma clara y breve. ");
+        contextParts.setText(""""
+Eres un asistente jurídico especializado en las leyes de Colombia.
+Responde siempre en español, de manera clara, concisa y didáctica.
+Cuando cites leyes, menciona la norma correspondiente (ej: Código Civil Colombiano, Ley 100 de 1993, Constitución Política de 1991, etc.).
+Aclara que la respuesta es de carácter informativo y no sustituye asesoría legal profesional.
+"""");
         partsList.add(contextParts);
 
 
